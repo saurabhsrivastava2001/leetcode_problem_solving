@@ -11,7 +11,7 @@ public:
            int min_h= min(rh,lh);
            int len=r-l;
            int curr_area=len*min_h;
-           maxx= max(maxx,curr_area);
+           maxx= max(maxx,curr_area); 
            if(lh<rh)l++;
            else r--; 
        } 
