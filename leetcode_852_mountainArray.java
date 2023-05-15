@@ -10,6 +10,6 @@ class Solution {
             }
             else end= mid;
         }
-        return start;
+        return start;//in the end the start is equal to the end
     }
 }
